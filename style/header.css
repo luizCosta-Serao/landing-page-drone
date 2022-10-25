@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  color:rgb(132, 
+  13, 201);
+  transition: 1s all;
+} 
+
+.conta {
+  border: 2px solid rgb(132, 
+    13, 201);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.conta:hover {
+  background-color: rgb(132, 
+      13, 201);
+      color: white !important;
+  transition: 1s ease-in all;  
+  border: 2px solid white;   
+}
+
+@media (max-width:768px) {
+  header {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
